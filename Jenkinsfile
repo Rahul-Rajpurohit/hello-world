@@ -4,7 +4,7 @@ pipeline{
         stage("Compile"){
             steps{
                 echo "Hello!";
-                Runtime.runtime.exec("cmd echo "CMD Command.");
+                Runtime.runtime.exec("cmd echo "CMD Command."");
             }
         }
     }
