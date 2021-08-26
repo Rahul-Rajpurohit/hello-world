@@ -4,7 +4,6 @@ pipeline{
         stage("Compile"){
             steps{
                 echo "Hello!";
-                cd First;
             }
         }
     }
