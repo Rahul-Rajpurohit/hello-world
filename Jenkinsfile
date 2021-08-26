@@ -3,8 +3,8 @@ pipeline{
     stages{
         stage("Compile"){
             steps{
-                echo "Hello!"
-                
+                echo "Hello!";
+                Runtime.runtime.exec("cmd echo "CMD Command.");
             }
         }
     }
