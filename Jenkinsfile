@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Compile"){
             steps{
-                println "Hello World." 
+                echo "Hello!"
             }
         }
     }
