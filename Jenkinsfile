@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage("Compile"){
             steps{
-                sh "echo Hello!"
+                sh "javac Hello.java"
+                sh "java Hello"
             }
         }
     }
